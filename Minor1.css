@@ -1,0 +1,122 @@
+nav{
+	width: 100vw;
+	height: 15vh;
+	border: 2px solid black;
+	background-color: #182654;
+}
+nav ul{
+	float:right;
+	margin-right: 20px;
+
+}
+nav ul li{
+	display: inline-block;
+	line-height: 80px;
+	margin: 0 5px;
+}
+nav ul li a{
+	color: #aac1f8;
+	font-size: 17px;
+	text-transform: uppercase;
+	padding: 7px 13px;
+	border-radius: 3px;
+}
+nav label{
+	color: white;
+	font-size: 35px;
+	line-height: 80px;
+	padding: 0 100px;
+	font-weight: bold;
+}
+    a.active,a:hover{
+	background: #052238;
+	transition: .5s;
+}
+img.active,img:hover{
+	background: #031421;
+	transition: .5s;
+}
+body{
+	background-color: #7477ff30;
+}
+main{
+	display: inline-block;
+	width: 70%;
+	float: left;
+	font-size: 20px;
+}
+aside{
+	display: inline-block;
+	width: 21%;
+	vertical-align: top;
+	float: right;
+}
+.widget{
+	border-top: 4px solid black;
+}
+.widget input{
+	display:block;
+	background-color: #F7F7F7;
+	margin-bottom:15px;
+	padding: 4px;
+	color: black;
+	font size: 3rem;
+}
+button[type="submit"]{
+	font-size: 1.2rem;
+	background-color: black;
+	color: white;
+	padding: 10px;
+	display: inline-block;
+	float: left;
+}
+.widget-title{
+	font-size: 1.5rem;
+}
+
+#other-options{
+	display: inline-block;
+	background-color: #bdcfffab;
+	float: left;
+	vertical-align: bottom;
+	margin-left: 100px;
+	border: 2px solid black;
+	margin-bottom: 15px;
+	border-radius: 20px;
+	font-size: 20px;
+}
+div ul li a{
+	color: #0738af;
+	font-size: 25px;
+	text-transform: uppercase;
+	padding: 7px 13px;
+	border-radius: 3px;
+}
+#end{
+	text-align: center;
+	margin-left: 320px;
+	background-color: #182654;
+	border-radius: 20px;
+	padding: 20px 0px;
+	font-size: 30px;
+	font: normal;
+	color: white;
+}
+.signup{
+	display: inline-block;
+	float: right;
+	font-size: 1.2rem;
+	background-color: black;
+	color: white;
+	padding: 12px;
+	margin-right: 60px;
+}
+#news-headings{
+	height: 7vh;
+	width: 50vw;
+	background-color: #182654;
+	text-align: center;
+	color: white;
+	padding: 5px;
+	font-size: 30px;
+}

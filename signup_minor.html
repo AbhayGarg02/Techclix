@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Signup Page</title>
+	<style>
+		form {
+			margin: 50px auto;
+			width: 500px;
+			padding: 20px;
+			background-color: #7e81ff14;
+			border: 1px solid #ccc;
+			border-radius: 5px;
+		}
+
+		label {
+			display: block;
+			margin-bottom: 5px;
+			font-weight: bold;
+		}
+
+		input[type="text"], input[type="email"], input[type="tel"] {
+			width: 100%;
+			padding: 10px;
+			border-radius: 5px;
+			border: 1px solid #ccc;
+			margin-bottom: 20px;
+			box-sizing: border-box;
+		}
+
+		select {
+			width: 100%;
+			padding: 10px;
+			border-radius: 5px;
+			border: 1px solid #ccc;
+			margin-bottom: 20px;
+			box-sizing: border-box;
+		}
+
+		input[type="submit"] {
+			background-color: #4CAF50;
+			color: #fff;
+			padding: 10px 20px;
+			border: none;
+			border-radius: 5px;
+			cursor: pointer;
+		}
+
+		input[type="submit"]:hover {
+			background-color: #3e8e41;
+		}
+	</style>
+</head>
+<body>
+	<h1 align="center" ><b>SIGNUP<b></h1>
+	<form>
+		<label for="first_name">First Name:</label>
+		<input type="text" id="first_name" name="first_name" required>
+
+		<label for="last_name">Last Name:</label>
+		<input type="text" id="last_name" name="last_name" required>
+
+		<label for="email">Email:</label>
+		<input type="email" id="email" name="email" required>
+
+		<label for="phone">Phone Number:</label>
+		<input type="tel" id="phone" name="phone" required>
+
+		<label for="college">College Name:</label>
+		<input type="text" id="college" name="college" required>
+
+		<label for="stream">Stream:</label>
+		<select id="stream" name="stream" required>
+			<option value="">Select a stream</option>
+			<option value="Computer Science">Computer Science</option>
+			<option value="Electrical Engineering">Electrical Engineering</option>
+			<option value="Mechanical Engineering">Mechanical Engineering</option>
+			<option value="Civil Engineering">Civil Engineering</option>
+			<option value="Business Administration">Business Administration</option>
+			<option value="Other">Other</option>
+		</select>
+
+		<label for="location">Location:</label>
+		<input type="text" id="location" name="location" required>
+
+		<input type="submit" value="Sign Up">
+	</form>
+</body>
+</html>
